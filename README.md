@@ -63,6 +63,7 @@ quotes_filtered_2.csv is the dataset containing quotes.Similarity is found betwe
 '/song'
 songs.csv contains link to songs and its emotion.Randomly a song which matches the emotion of the user is chosen.The link for the same is returned.
 
+Screenshots of all pages:
 
 
 
