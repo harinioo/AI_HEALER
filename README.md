@@ -55,7 +55,15 @@ All these work are done using an api created using flask.
 app.py:
 '/emotion'
 tweet_emotion.csv is the dataset containing twitter tweets and its emotion.
-Preprocessing is done to the dataset and multiclass classification is performed and the model is stored as a pickle file.This file is loaded and used 
+Preprocessing is done to the dataset and multiclass classification is performed and the model is stored as a pickle file(model.pkl).This file is loaded and used in the flask "app.py" to predict the emotion for user input.
+
+'/quotes'
+quotes_filtered_2.csv is the dataset containing quotes.Similarity is found between user input and quotes and the most similar quotes is returned.
+
+'/song'
+songs.csv contains link to songs and its emotion.Randomly a song which matches the emotion of the user is chosen.The link for the same is returned.
+
+
 
 
 
